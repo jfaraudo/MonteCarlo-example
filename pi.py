@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # input total number of random points
-total_random_points = int(raw_input("\n Number of random points for Monte Carlo estimate of Pi?\n>"))
+total_random_points = int(input("\n Number of random points for Monte Carlo estimate of Pi?\n>"))
 
 # number of random points inside unit circle and total random points
 inside_circle = 0
@@ -46,14 +46,14 @@ inside_unit_square = total_random_points / 4.0
 pi_approx = inside_circle / inside_unit_square
 
 # Print output
-print '\n--------------'
-print '\n Statistics'
-print '\n Number of total points inside total square:',total_random_points
-print '\n Number of points inside unit square:',inside_unit_square,' percentage:',(inside_unit_square*100.0/total_random_points),'%'
-print '\n Number of points inside unit circle:',inside_circle,' percentage:',(inside_circle*100.0/total_random_points),'%'
-print '\n Ratio of points inside unit circle compared with unit square =',(inside_circle*100.0/total_random_points),'%/',(inside_unit_square*100.0/total_random_points),'% =',pi_approx
-print '\n\nApproximate value for pi:', pi_approx
-print 'Exact value of pi:', np.pi
+print('\n--------------')
+print('\n Statistics')
+print('\n Number of total points inside total square:',total_random_points)
+print('\n Number of points inside unit square:',inside_unit_square,' percentage:',(inside_unit_square*100.0/total_random_points),'%')
+print('\n Number of points inside unit circle:',inside_circle,' percentage:',(inside_circle*100.0/total_random_points),'%')
+print('\n Ratio of points inside unit circle compared with unit square =',(inside_circle*100.0/total_random_points),'%/',(inside_unit_square*100.0/total_random_points),'% =',pi_approx)
+print('\n\nApproximate value for pi:', pi_approx)
+print('Exact value of pi:', np.pi)
 
 # plot output of random points and circle
 random_points_plot = plt.scatter(x, y, color='blue', s=.1)
