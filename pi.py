@@ -36,8 +36,8 @@ for i in range(0, total_random_points):
     if (x_2 + y_2) <= 1.0:
         inside_circle = inside_circle + 1
 
-# Number of points inside cercle as compared with total
-cercle_area = inside_circle / total_random_points
+# Number of points inside circle as compared with total
+circle_ratio = inside_circle / total_random_points
 
 #Number of random points expected inside a square of unit area
 inside_unit_square = total_random_points / 4.0
@@ -47,13 +47,11 @@ pi_approx = inside_circle / inside_unit_square
 
 # Print output
 print('\n--------------')
-print('\n Statistics')
-print('\n Number of total points inside total square:',total_random_points)
-print('\n Number of points inside unit square:',inside_unit_square,' percentage:',(inside_unit_square*100.0/total_random_points),'%')
-print('\n Number of points inside unit circle:',inside_circle,' percentage:',(inside_circle*100.0/total_random_points),'%')
-print('\n Ratio of points inside unit circle compared with unit square =',(inside_circle*100.0/total_random_points),'%/',(inside_unit_square*100.0/total_random_points),'% =',pi_approx)
-print('\n\nApproximate value for pi:', pi_approx)
-print('Exact value of pi:', np.pi)
+print('\nStatistics')
+print('\nNumber of points inside square of area 4:',total_random_points,' (100%)')
+print('Number of points inside unit circle:',inside_circle,' (',(circle_ratio*100.0),'%)')
+print('\n Estimated Area of unit circle =',circle_ratio,'x Total Area =', pi_approx)
+print('\n Exact value (pi):', np.pi)
 
 # plot output of random points and circle
 random_points_plot = plt.scatter(x, y, color='blue', s=.1)
