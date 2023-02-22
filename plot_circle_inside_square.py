@@ -1,5 +1,5 @@
 #
-# INTRODUCTION TO PYTHON2 SESSION
+# INTRODUCTION TO PYTHON
 # May 2018 
 # Supporting example program by Jordi Faraudo
 # This simply draws a unit circle inside a square 
