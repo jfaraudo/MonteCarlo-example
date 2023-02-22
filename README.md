@@ -1,10 +1,13 @@
-# MonteCarlo-example and python programming
+# Monte Carlo example and python programming
 
-This is in fact one of the classical and simplest example of a Monte Carlo simulation, the calculation of the area of a circle and the Pi number using MonteCarlo method.
+This is one of the classical and simplest example of a Monte Carlo simulation, the calculation of the area of a circle and the Pi number using Monte Carlo method.
 The only assumption is that the area of a square is known.
 
-The algorithm is an implementation of Algorithm 1.1 from the book by W Krauth "Statistical Mechanics Algorithms and Computations" Oxford University press (see book site here http://global.oup.com/booksites/content/9780198515364/ )
-For other similar implementations see for example https://gist.github.com/louismullie/3769218.
+We provide here two different algorithms for the same calculation: simple direct Monte Carlo and Markov chain Monte Carlo (Metropolis) 
+
+The algorithms are an implementation of Algorithm 1.1 and 1.2 from the book by W Krauth "Statistical Mechanics Algorithms and Computations" Oxford University press (see book site here http://global.oup.com/booksites/content/9780198515364/ )
+
+For other similar implementations see for example https://gist.github.com/louismullie/3769218 and many others (see also the animated gif in Wikipedia MonteCarlo article https://en.wikipedia.org/wiki/Monte_Carlo_method ).
 
 The implementation provided here shows a plot illustrating the number of succesful attemps that launched over a circle for pedagogical purposes.
 
