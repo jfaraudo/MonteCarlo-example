@@ -1,8 +1,8 @@
 # -------------------------------------------------------
-# INTRODUCTION TO PYTHON2 SESSION
+# INTRODUCTION TO SIMULATION USING PYTHON 
 # May 2018 
-# Example 3 program by Jordi Faraudo
-# MonteCarlo simulation for calculation of Pi
+# Example program by Jordi Faraudo
+# Monte Carlo simulation for calculation of Pi
 # -------------------------------------------------------
 # 
 # The algorithm is an implementation of Algorithm 1.1 from the book by W Krauth "Statistical Mechanics Algorithms and Computations"
