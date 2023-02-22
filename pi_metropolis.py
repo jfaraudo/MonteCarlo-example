@@ -77,41 +77,34 @@ pi_approx = 4.0*circle_ratio
 # Print output
 print('\n--------------')
 print('\nPerformance of calculation')
-print('\nNumber of failed jumps (removed):',outside,' (',100*outside/inside_square,'%)')
-print('\n\nResult')
+print('Number of failed jumps (removed):',outside,' (',100*outside/inside_square,'%)')
+print('\nResult')
 print('\nNumber of points inside square of area 4:', inside_square)
 print('Number of points inside unit circle:',inside_circle,)
-print('Ratio unit circle/full square=',circle_ratio*100,'%)')
-print('\n Estimated Area of unit circle =',circle_ratio,'x Total Area =', pi_approx)
-print('\n Exact value (pi):', np.pi)
+print('Ratio unit circle/full square=',circle_ratio*100,'%')
+print('\nEstimated Area of unit circle =',circle_ratio,'x Total Area =', pi_approx)
+print(' Exact value (pi):', np.pi)
           
 #Plot 
 
-# create empty x and y arrays for eventual scatter plot of generated random points
-x_plot_array = np.empty(shape=(1,inside_square))
-y_plot_array = np.empty(shape=(1,inside_square))
-
-# plot output of random points and circle
-random_points_plot1 = plt.scatter(xc, yc, color='blue', s=.1)
-random_points_plot2 = plt.scatter(xs, ys, color='red', s=.1)
-circle_plot = plt.Circle( ( 0, 0 ), 1, color='red', linewidth=2, fill=False)
+#create plot with the data and title
+plt.plot(xc,yc,'ro',markersize=2.0)
+plt.plot(xs,ys,'bo',markersize=2.0)
+plt.title('MC estimate of Pi')
 
 #Create axis with equal aspect ratio in both axis
 ax = plt.gca()
 ax.set_aspect('equal', 'box')
 
-#Clear axis (do we need this?)
-ax.cla()
-
 #Set axis limits
 ax.set_xlim((-1, 1))
 ax.set_ylim((-1, 1))
 
-#Add the points and the circle to the plot
-ax.add_artist(random_points_plot1)
-ax.add_artist(random_points_plot2)
+#Add a circle
+circle_plot = plt.Circle( ( 0, 0 ), 1, color='green', linewidth=1.0, fill=False)
 ax.add_artist(circle_plot)
 
+#add black lines to show the different quadrants
 plt.axhline(0, color='black')
 plt.axvline(0, color='black')
 #Show plot in screen
