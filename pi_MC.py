@@ -29,10 +29,6 @@ ys = []
 #---------------------------------------------------
 #Calculation
 
-#Initial position
-x=1.0
-y=1.0
-
 while (inside_square<total_random_points):
     
     #generate a random point
