@@ -69,8 +69,8 @@ print(' Exact value (pi):', np.pi)
 #Plot 
 
 #create plot with the data and title
-plt.plot(xc,yc,'ro',markersize=2.0)
-plt.plot(xs,ys,'bo',markersize=2.0)
+plt.plot(xc,yc,'ro',markersize=1.0)
+plt.plot(xs,ys,'bo',markersize=1.0)
 plt.title('MC estimate of Pi')
 
 #Create axis with equal aspect ratio in both axis
