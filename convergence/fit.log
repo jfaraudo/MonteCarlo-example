@@ -162,3 +162,158 @@ variance of residuals (reduced chisquare) = WSSR/ndf   : 3.19083e-05
 Final set of parameters            Asymptotic Standard Error
 =======================            ==========================
 n               = 3.14152          +/- 0.0003984    (0.01268%)
+
+
+*******************************************************************************
+Mon Feb 19 09:34:29 2024
+
+
+FIT:    data read from "MCpi.dat" u 1:2
+        format = x:z
+        x range restricted to [80000.0 : 100000.]
+        #datapoints = 201
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x)=n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   n            
+   0 9.2181033450e+02   0.00e+00  1.00e+00    1.000000e+00
+   3 6.3816568409e-03  -8.76e-04  1.00e-03    3.141516e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00638166
+rel. change during last iteration : -8.76127e-09
+
+degrees of freedom    (FIT_NDF)                        : 200
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00564874
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.19083e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n               = 3.14152          +/- 0.0003984    (0.01268%)
+
+
+*******************************************************************************
+Fri Feb 28 18:16:28 2025
+
+
+FIT:    data read from "MCpi.dat" u 1:2
+        format = x:z
+        x range restricted to [80000.0 : 100000.]
+        #datapoints = 201
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x)=n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   n            
+   0 9.2181033450e+02   0.00e+00  1.00e+00    1.000000e+00
+   3 6.3816568409e-03  -8.76e-04  1.00e-03    3.141516e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00638166
+rel. change during last iteration : -8.76127e-09
+
+degrees of freedom    (FIT_NDF)                        : 200
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00564874
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.19083e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n               = 3.14152          +/- 0.0003984    (0.01268%)
+
+
+*******************************************************************************
+Fri Feb 28 18:21:52 2025
+
+
+FIT:    data read from "MCpi.dat" u 1:2
+        format = x:z
+        x range restricted to [80000.0 : 100000.]
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x)=n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   n            
+   0 9.1739740231e+02   0.00e+00  1.00e+00    1.000000e+00
+   3 5.2234628466e-03  -1.09e-03  1.00e-03    3.141719e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00522346
+rel. change during last iteration : -1.08668e-08
+
+degrees of freedom    (FIT_NDF)                        : 199
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00512333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.62486e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n               = 3.14172          +/- 0.0003623    (0.01153%)
+
+
+*******************************************************************************
+Fri Feb 28 18:23:22 2025
+
+
+FIT:    data read from "MCpi.dat" u 1:2
+        format = x:z
+        x range restricted to [80000.0 : 100000.]
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x)=n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   n            
+   0 5.2234628466e-03   0.00e+00  3.14e+00    3.141719e+00
+   1 5.2234628466e-03   0.00e+00  3.14e-01    3.141719e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00522346
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 199
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00512333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.62486e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n               = 3.14172          +/- 0.0003623    (0.01153%)
+
+
+*******************************************************************************
+Fri Feb 28 18:23:31 2025
+
+
+FIT:    data read from "MCpi.dat" u 1:2
+        format = x:z
+        x range restricted to [80000.0 : 100000.]
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x)=n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   n            
+   0 9.1739740231e+02   0.00e+00  1.00e+00    1.000000e+00
+   3 5.2234628466e-03  -1.09e-03  1.00e-03    3.141719e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00522346
+rel. change during last iteration : -1.08668e-08
+
+degrees of freedom    (FIT_NDF)                        : 199
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00512333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.62486e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n               = 3.14172          +/- 0.0003623    (0.01153%)

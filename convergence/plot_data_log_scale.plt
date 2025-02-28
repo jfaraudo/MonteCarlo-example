@@ -7,6 +7,6 @@ set xrange[80000:100000]
 # fit
 fit l(x) "MCpi.dat" u 1:2 via n
 
-set xrange[0:100000]
-
+set xrange[10:100000]
+set logscale x 10
 plot "MCpi.dat" u 1:2 w l notitle,l(x) w l t sprintf("Average (from 80000): %.5f",n)

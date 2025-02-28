@@ -17,7 +17,7 @@ f = open('MCpi.dat','w')
     
 # initial and maximum number of random points
 max_random_points = 100000
-min_random_points = 500
+min_random_points = 10
 
 #step for iteration
 step = 100
@@ -52,6 +52,8 @@ while (total_random_points <= max_random_points):
 
     #Approximation to pi
     pi_approx = 4.0*circle_ratio 
+    
+    #save data to a file
     print(f'{total_random_points} {pi_approx}\n')
     f.write(f'{total_random_points} {pi_approx}\n')
     
