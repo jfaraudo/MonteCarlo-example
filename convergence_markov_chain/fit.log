@@ -1,0 +1,62 @@
+
+
+*******************************************************************************
+Mon Mar  3 17:14:27 2025
+
+
+FIT:    data read from "MCpi.dat" u 1:2
+        format = x:z
+        x range restricted to [80000.0 : 100000.]
+        #datapoints = 201
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x)=n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   n            
+   0 9.2176774006e+02   0.00e+00  1.00e+00    1.000000e+00
+   3 5.5784056359e-03  -1.00e-03  1.00e-03    3.141467e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00557841
+rel. change during last iteration : -1.00224e-08
+
+degrees of freedom    (FIT_NDF)                        : 200
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00528129
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.7892e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n               = 3.14147          +/- 0.0003725    (0.01186%)
+
+
+*******************************************************************************
+Mon Mar  3 17:15:14 2025
+
+
+FIT:    data read from "MCpi.dat" u 1:2
+        format = x:z
+        x range restricted to [80000.0 : 100000.]
+        #datapoints = 201
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x)=n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   n            
+   0 9.2176774006e+02   0.00e+00  1.00e+00    1.000000e+00
+   3 5.5784056359e-03  -1.00e-03  1.00e-03    3.141467e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00557841
+rel. change during last iteration : -1.00224e-08
+
+degrees of freedom    (FIT_NDF)                        : 200
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00528129
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.7892e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+n               = 3.14147          +/- 0.0003725    (0.01186%)
