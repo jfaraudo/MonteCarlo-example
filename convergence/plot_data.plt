@@ -1,5 +1,5 @@
 set xlabel "Number of MC trials"
-set ylabel "Number of trials inside"
+set ylabel "Estimated value of Pi"
 
 # Funcio a ajustar
 l(x)=n

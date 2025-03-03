@@ -17,7 +17,7 @@ f = open('MCpi.dat','w')
     
 # initial and maximum number of random points
 max_random_points = 100000
-min_random_points = 10
+min_random_points = 100
 
 #step for iteration
 step = 100
