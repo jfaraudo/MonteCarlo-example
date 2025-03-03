@@ -1,4 +1,4 @@
-Analysis of convergence of the direct Monte Carlo method towards Pi
+#Analysis of convergence of the direct Monte Carlo method towards Pi
 
 The python program performs sequential simulations for increasing number of MC trials ("peebles").
 The data file corresponds to the output of a run of the program
