@@ -6,7 +6,7 @@ The only assumption is that the area of a square is known.
 We provide here two different algorithms for the same calculation: simple direct Monte Carlo and Markov chain Monte Carlo.
 The implementations are provided in pyhton3 scripts and Google Colab notebooks.
 
-The convergence folder provides an example of the performance of the direct algorithm as we increase the number of attemps.
+The convergence folder provides an example of the performance of the algorithms as we increase the number of attemps.
 
 The algorithms are an implementation of Algorithm 1.1 and 1.2 from the book by W Krauth "Statistical Mechanics Algorithms and Computations" Oxford University press (see book site here http://global.oup.com/booksites/content/9780198515364/ )
 
