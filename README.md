@@ -10,7 +10,7 @@ The convergence folder provides an example of the performance of the algorithms 
 
 The algorithms are an implementation of Algorithm 1.1 and 1.2 from the book by W Krauth "Statistical Mechanics Algorithms and Computations" Oxford University press (see book site [here](http://global.oup.com/booksites/content/9780198515364/)
 
-For other similar implementations see for [example](https://gist.github.com/louismullie/3769218 and many others) (see also the animated gif in [Wikipedia MonteCarlo article](https://en.wikipedia.org/wiki/Monte_Carlo_method) ).
+For other similar implementations see for [example](https://gist.github.com/louismullie/3769218) and [Wikipedia MonteCarlo article](https://en.wikipedia.org/wiki/Monte_Carlo_method) ) and many others.
 
 The implementation provided here shows a plot illustrating the number of succesful attemps that launched over a circle for pedagogical purposes.
 
