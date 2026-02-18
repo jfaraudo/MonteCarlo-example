@@ -8,7 +8,7 @@ The implementations are provided in pyhton3 scripts and notebooks.
 The convergence folder provides an example of the performance of the algorithms as we increase the number of attemps.
 
 For reference, see for example algorithm 1.1 from the book by W Krauth "Statistical Mechanics Algorithms and Computations" Oxford University press (see book site [here](http://global.oup.com/booksites/content/9780198515364/)
-or or exercise 5 pg. 145 of the book "Doing Math with Python".
+or or exercise 5 pg. 145 of the book ["Doing Math with Python".](https://nostarch.com/doingmathwithpython)
 
 For other similar implementations see for [example](https://gist.github.com/louismullie/3769218) and many others (see also the animated gif in [Wikipedia MonteCarlo article](https://en.wikipedia.org/wiki/Monte_Carlo_method).
 
